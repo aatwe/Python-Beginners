@@ -1,0 +1,5 @@
+Makes program become smarter
+
+helps programs to make decisions
+execute certain code when some conditions are true,
+execute other code when some other

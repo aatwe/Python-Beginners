@@ -1,0 +1,10 @@
+Be careful when appending, if you run the program twice, it will add 2 times
+also it messes up without \n
+	
+employee_file = open("employees.txt","a")	//Open file in append mode
+employe_file.write("Toby- Human Resources ")	//write data
+employee_file.close()			//close file
+
+
+
+Open your employee.txt file -> Entry will be appended

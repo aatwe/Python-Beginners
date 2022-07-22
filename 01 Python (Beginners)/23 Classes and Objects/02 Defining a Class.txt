@@ -1,0 +1,24 @@
+Student.py:
+//This class is an overview/template of what a student is
+student objects will use this template
+
+
+class Student: 
+		//Values passed in from object(parameters) to this function
+        	
+//__init__ is a constructor
+	A constructor's job is to map out object and class
+	A constructor is called  when object is created from a class
+	A constructor allows the class to initialize attributes from the values
+	 passed in from the object
+
+//name,major,goa,is_on_probation are all passed as parameters when creating object
+	def __init__(self, name, major, gpa, is_on_probation):	//function  //maps out student 						//attributes
+	self.name = name		//name of object = what we passed in as parameter
+	self.major = major
+	self.gpa = gpa
+	self.is_n_probation = is_on_probation
+
+
+What is self? self can be anything  , just have to be first parameter in any function in class
+	this is the link bw current instance and  class attributes

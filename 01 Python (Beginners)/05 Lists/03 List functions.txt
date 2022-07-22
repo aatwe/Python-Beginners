@@ -1,0 +1,59 @@
+List 1
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+List 2
+friends = ["Kevin", "Karen" , "Jim",  "Oscar" , "Toby"]
+
+
+Q1) How to append 2 lists?		 extend()
+friends.extend(lucky_numbers)
+print(friends)
+
+
+Q2) How to add individual element to the end of the list? 		.append(element)
+friends.append("Creed")
+print(friends)
+
+Q3) How to add an item to the middle of list? 			.insert(index, element)
+friends.insert(1, "Kelly")
+
+Q4) How to remove item from list?				 .remove(element)
+friends.remove("Jim")
+
+Q5) How to remove all elements from list?			.clear()
+friends.clear()
+
+Q6) How to pop an item off list ? Remove last element from list	.pop()
+friends.pop()
+friends = ["Kevin", "Karen" , "Jim",  "Oscar" , "Toby"]
+print(friends)
+Output: ['Kevin', 'Karen', 'Jim', 'Oscar']
+
+Q7) How to check if an element is in list? return 			.index(element_to_check_in_list)
+print(friends.index("Kevin"))
+print(friends.index("Mike"))
+
+Output: 0 //Returns index of Kevin element in List
+Output: Mike is not in list
+
+
+Q8) How to return count of element in list?			.count()
+friends = ["Kevin", "Karen" , "Jim", ''Jim,  "Oscar" , "Toby"]
+
+print(friends.count("Jim"))
+Output : 2
+
+
+Q9) How to sort the list?					.sort()
+friends = ["Kevin", "Karen" , "Jim", ''Jim,  "Oscar" , "Toby"]
+friends.sort()		//Sorts strings: in alphabetical order
+print(friends)		            numbers: in ascending order(By Default)
+
+Q10) How to reverse the order of list?				.reverse()
+
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+lucky_numbers.reverse()
+
+
+Q11) How to create a copy of list?   //friends 2 copies all attributes off friends	.copy()
+
+friends2 = friends.copy()

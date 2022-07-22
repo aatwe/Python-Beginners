@@ -1,0 +1,10 @@
+Number, strings, boolean etc
+
+But in real word all data cannot be represented
+For ex Mobile phone
+
+Solution? Classes and objects
+Create your own data type
+
+for ex Phone data type = class phone
+_______________________________________________________________

@@ -1,0 +1,35 @@
+How to get all math function?
+from math import*
+
+
+1) Absolute value function : abs()
+
+my_num = -5
+print(abs(my_num))
+Output : 5
+
+
+2) How to write exponent ? 3^2 = pow(3,2)
+ my_num = -5
+print(pow(3,2))
+
+3) How to return larger no.
+print(max(4,6))	//O/p 6
+
+4) How to return a smaller no.
+print(min(4,6)) 	//O/p 4
+
+5) How to round a number
+my_num = -5
+print(round(3.7))  //O/p= 4
+
+
+6) How to get floor value
+print(floor(3.7))  -> O/p 3
+
+7) How to get ceil
+print(ceil(3.7))    -> O/p 4
+
+8) How to get square root
+my_num = -5
+print(sqrt(36))    -> O/p 6

@@ -1,0 +1,26 @@
+tuple_name = (4,5)
+//cannot be changed
+
+
+A type of data structure that cannot be changed
+Similar to list but
+	() instead of []
+	Not mutable/modifiable
+	
+1) How to create a tuple?
+	tuple_name = (4,5)
+Ex 	coordinates = (3,4)
+
+2) How to print tuple?	print(tuple_name(index))
+print(coordinates[0])
+Output: 4
+print(coordinates[1])
+Output: 5
+
+3) How to change entries? 	Cannot It is immutable
+coordinates[1] = 10
+//Output: Error
+
+
+4) Use case: List of coordinate tuples
+coordinates = [(4,5), (6,7) , (80,34)]

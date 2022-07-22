@@ -1,0 +1,10 @@
+I wake up 
+If im hungry	//condition
+	I eat breakfast
+
+I leave my house
+if its cloudy	//if Condition true
+	I bring umbrella	//do some things
+other wise	//If condition false
+	I bring sunglasses	//do other things
+

@@ -1,0 +1,26 @@
+Change variable values and respond to every combination and execute different codes
+
+1) or keyword
+
+is_male = True
+is_tall = True
+
+if is_male or is_tall :
+	print("You are a male")
+else:
+	print("You are not a male")
+
+
+2) and keyword
+if is_male and is_tall :
+
+3) not keyword
+if is_male or not (is_tall) :
+ 	print("the male is not tall")
+3) elif keyword
+if is_male or is_tall :
+	print("You are a male")
+elif is_male and not(is_tall):
+	print("You are short male")
+elif not(is_male) and is_tall:
+	print("You are not a male")

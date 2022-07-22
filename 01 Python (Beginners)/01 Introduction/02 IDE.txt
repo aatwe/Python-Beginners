@@ -1,0 +1,7 @@
+Install Pycharm
+
+Config:
+	Preferences:
+		Appearence : UI Options
+		
+

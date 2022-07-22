@@ -1,0 +1,7 @@
+emplouee_file = open("employyes.txt" , "r")
+print(employee_file.readable()))
+
+employee_file.close()
+
+
+Output: False

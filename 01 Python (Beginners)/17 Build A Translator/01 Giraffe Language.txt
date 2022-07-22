@@ -1,0 +1,30 @@
+All vowels  -> g
+_  _ _ _  __  __ _ _ _ _ 
+
+for ex 	dog -> dgg
+	cat   -> cgt
+
+Algo:
+	scan and fill letters in avariable 1 by 1
+	If AEIOUaeiou encountered, fill g instead
+
+
+def translate(phrase) :
+	translation = " "
+	for letter in phrase
+	   if letter in "AEIOUaeiou"
+	      if letter.isupper():
+	   	translation = translation + "G"	
+	   else:
+		translation = translation + "g"
+	else:
+	translation = translation + letter
+	
+	return translation
+
+//Take user input and transslate and print
+print(translate(input("Enter a phrase")))
+___________________________________________________________
+Output:
+Enter a Phrase:  dog
+dgg

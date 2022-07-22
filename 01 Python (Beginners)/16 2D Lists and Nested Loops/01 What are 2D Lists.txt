@@ -1,0 +1,48 @@
+A list with list elements = Grid
+	//Grid like structure
+2D_variable_name = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9].
+	[0]
+]
+
+Q1) How to print out all rows?
+
+number_grid = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9].
+	[0]
+]
+for row in number_grid:
+    print(row)	//row is 2D element
+
+Output:
+[1, 2, 3]
+[4, 5, 6]
+[7, 8, 9]
+[0]
+
+Q2) How to access individual elements in 2D  list ? variable_name[row_index][column_index]
+print(variable_name[row_index][column_index])
+print(2D_variable_name[0][0]) 
+
+Q3) How to parse through 2D list? 2 for loops one for element, other for elements inside element
+Nested for loop
+
+for row in number_grid:
+     for col in row:
+	print(col)
+
+Output
+1
+2
+3
+4
+5
+6
+7
+8
+9
+0

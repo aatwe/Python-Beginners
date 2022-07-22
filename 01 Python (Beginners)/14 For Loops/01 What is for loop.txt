@@ -1,0 +1,63 @@
+What do for loop do?
+A variable changes on every iteration of loop and same operation is performed as given
+Used to loop through values
+
+for variable in iterable_object
+//note iterable object = list,tuple,set
+
+	
+1) Loop through array elements
+ friends = ["Jim", "Karen", "Kevin"]
+  for friend in friends
+	print(friend)
+
+Output:
+Jim
+Karen
+Kevin
+
+2) Loop through string
+for letter in "Giraffe Academy":
+	print(letter)
+
+Output: 
+G
+i
+r
+a
+f
+f
+e
+
+A
+c
+a
+d
+e
+m
+y
+
+3) Loop through a range of numbers
+range(10) = all no. in between 0 and 10 (not equalto10)
+
+for index in range(len(10)):		
+			//prints all no. in between 0 and 10 (not equalto10)
+	print(index)
+
+for index in  range(3,10)		
+
+	print(index)	//prints all no. in between 3 and 10(not equalto10)
+
+
+for index in range(5)"
+      if index == 0:
+	print("first Iteration")
+       else:
+	print("Not first")
+
+Output:
+first Iteration
+Not first
+Not first
+Not first
+Not first

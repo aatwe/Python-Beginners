@@ -1,0 +1,11 @@
+employee_file = open("employees.txt" , "r")
+print(employee_file.read()))
+employee_file.close()
+
+//returns a string or bytes object (encoded vs raw data)
+will show on console
+
+Output: False
+
+employee_file.read(33))		//reads 33 bytes
+default bytes = -1 = whole file

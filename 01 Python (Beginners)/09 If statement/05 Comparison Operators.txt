@@ -1,0 +1,17 @@
+Comparison  = tolna
+Why Compre? Comparison is common way to make if statements
+What are comparison operators? Comparison operators: > , < , >= , <= , == , !=
+
+What do comparison return? Returns true or false
+
+def max_num(num1, num2, num3):
+     if num1 >= num2 and num1 >= num3
+  	return num1
+    elif num2 >==num1 and num2>=num3
+	return num2
+    else:	
+	return num3
+
+print(max_num(3,4,5))
+
+Output: 5

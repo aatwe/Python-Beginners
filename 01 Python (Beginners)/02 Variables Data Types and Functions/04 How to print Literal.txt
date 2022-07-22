@@ -1,0 +1,5 @@
+How Print a liteal?  \
+anything after\becomes a literal and is taken that way
+
+"Academy\"Start"
+//Prints Academy"Start

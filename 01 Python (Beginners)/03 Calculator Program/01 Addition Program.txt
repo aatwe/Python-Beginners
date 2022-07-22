@@ -1,0 +1,32 @@
+//Get input from User
+
+num1 = Input("Enter a number")	
+num2 = Input("Enter another number")
+
+we know default input data type = string 
+so string is taken as input
+and  + is concat for string
+
+
+1) Wrong Case:
+result = num1 + num2
+
+print(result)
+
+Console:
+Enter a Number : 5
+Enter another Number : 8.3
+
+58.3
+
+
+2) Wrong case 2:
+result = int(num1) + int(num2)		//Converts both strings to integers but only accepts whole number  //entering decimal will give error
+print(result)
+
+//will not allow to put decimal
+
+3) Correct case:
+//Solution: Use float
+result = float(num1) + float(num2)		//Will add even if decimal no. are input
+print(result)

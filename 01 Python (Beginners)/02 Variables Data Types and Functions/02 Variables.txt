@@ -1,0 +1,24 @@
+Where to store? Variable
+What is a variable? A container to store data values
+
+
+Why create variables?
+Helps to control and manage data in programs by refering to variable
+
+//How to change name Atwe everywhere? have to manually
+//Other way? Store Atwe in a variable
+
+//use variable in sequence of print statements
+print( character_name + "is such a good boy")
+print("But there is one problem with" + character_name)
+print("Too much perfection and" +character_name + "are syncophanous ")
+
+How to create variable?
+//specify name of variable   //seperate with _ if long name
+// put value inside variable //assign value to variable
+
+character_name = "Atwe"
+
+//print("character_name "is such a good boy")
+//print("But there is one problem with" character_name)
+//print("Too much perfection and Atwe are syncophanous ")

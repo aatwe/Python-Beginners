@@ -1,0 +1,14 @@
+Environment where we can try out different python functions
+
+Quick and dirty way to write python
+
+
+How to use Python Interpreter?
+
+CMD ->   
+What is terminal? Where we can interact with computer using text without GUI
+1) CMD
+2) python3
+
+//Dont write serious python scripts here
+//its purpose is for quick and dirty steps

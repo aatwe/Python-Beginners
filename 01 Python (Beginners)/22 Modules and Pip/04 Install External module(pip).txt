@@ -1,0 +1,23 @@
+1) Find python module
+
+2) Install python module using pip 
+For expython-docx is a external module
+
+How to install python-docx
+pip install python-docx
+
+
+What is pip?
+preferred installer program
+package manager program
+helps install, manage, update and uninstall
+to install python-docx
+
+3) CMD
+//python pip -> preinstalled
+/check
+
+pip --version
+//pip version
+
+pip install python-docx

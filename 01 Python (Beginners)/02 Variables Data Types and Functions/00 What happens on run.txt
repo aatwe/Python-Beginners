@@ -1,0 +1,4 @@
+Python goes into file
+executes instructions in order given
+
+Python always begins from top to bottom

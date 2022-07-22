@@ -1,0 +1,43 @@
+Why use return statement? get something back from function and break from function
+
+
+When instead of just performing you want function to give some information back
+A return function returns value back to caller
+
+once return statement executes , it breaks from the function, next statement wont execute
+1) How to return value?
+	Return keyword
+
+2) For example?
+def cube(num):
+	num*num*num
+
+cube(3)
+
+//No output printed
+
+3) What if you print the function?
+  def cube(num):
+	num*num*num
+
+  print(cube(3))
+
+//Output : None
+
+
+4) def cube(num):
+       return num*num*num
+
+print(cube(3))
+Output: 27
+
+
+5) 
+def cube(num)
+	return num*num*num
+	print("This wont be printed")
+
+result =cube(3)
+print(result)
+
+//Why not printed, once return statement executes , it breaks from the function, next statement wont execute

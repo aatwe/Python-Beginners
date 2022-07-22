@@ -1,0 +1,6 @@
+Define a bunch of attributes and functions inside a class and create another class and inherit all those attributes
+
+No need to physically write the same methods and attributes
+
+
+class ChineseChef(Chef):

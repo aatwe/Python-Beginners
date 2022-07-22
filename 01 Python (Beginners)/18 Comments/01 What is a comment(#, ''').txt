@@ -1,0 +1,7 @@
+Not rendered by program
+
+#This program is cool
+print("Comments are fun")
+
+
+Can also use to comment out a line of code

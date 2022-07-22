@@ -1,0 +1,17 @@
+//Now we will use the student class and create student object
+app.py
+//Object is an actual student using the template //not just template // but a student we are representing inside our program
+//Object is an instance of class i.e user of template
+
+1) Import file from class
+          //File	   //Class
+from Student import Student		
+
+2) Create a class object instance and access infomation
+//Object     Class	
+student1 = Student("Jim", "Business", 3.1, False)		//Create object 1 like a normal variable
+student2 = Student("Pam", "At", 2.5, True)		//Create object 2
+
+print(student1.name)		//Use object with class method
+
+Output: Jim

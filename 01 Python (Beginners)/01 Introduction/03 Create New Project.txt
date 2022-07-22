@@ -1,0 +1,4 @@
+New project -> 
+	1) Select location/Folder_name
+	2) Select interpreter : Python 2 or 3
+	-> Create

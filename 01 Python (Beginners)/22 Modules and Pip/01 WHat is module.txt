@@ -1,0 +1,6 @@
+A python file we can import in currently working python file and access all those functions and variables
+I.E use without copying
+
+Google: List of Python modules
+All sorts of stuff you can do
+Chances are someone has written python module to do what you are doing

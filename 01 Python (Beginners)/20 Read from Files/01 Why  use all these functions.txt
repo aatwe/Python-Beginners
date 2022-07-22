@@ -1,0 +1,2 @@
+To get information from a file
+parse through information in a file

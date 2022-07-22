@@ -1,0 +1,20 @@
+How to get input from user? input() function
+*What is Default Data type of input? String
+
+
+input("Prompt")
+input("Enter your name")
+
+
+
+0) Why get input from user? To make program more interactive and do cool things with inputs
+1) How to store user input inside a variable?
+
+name = input("Enter your name")
+print("Hello" + name  + "!")
+
+/Output
+Console
+Enter your name
+Mike
+Hello Mike!

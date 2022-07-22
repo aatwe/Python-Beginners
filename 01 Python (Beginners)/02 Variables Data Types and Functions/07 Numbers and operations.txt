@@ -1,0 +1,25 @@
+1) How to print a number (Decimal/whole/negative)? Python handles 
+print(2.0987)
+
+1) How to store a number
+my_num = 5
+
+2) How to print number operations ?
+print(3*4.5)
+
+3) How to specify order of operations? parenthesis ()
+print(3*(4+5))
+
+4) How to use modulus? Spit out remainder
+print(10%3)
+
+5) how to convert number to string? using str()
+    Why convert number to string? Useful when printing no. and string side by side
+ 
+6) How to convert number to string? 
+
+my_num = 5
+print(str(my_num))  //converting the number to string
+
+my_num = 5
+print( my_num+ " my favourite number")	//Error if not converted

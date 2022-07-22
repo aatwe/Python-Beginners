@@ -1,0 +1,11 @@
+try:
+    answer = 10/0
+	number = int(input("Enter a number: "))
+	print(number)
+ 
+ except:
+				#Avoid this
+ except ZeroDiivisionError as err:
+	print(err)			#Goodpractice
+  except ValueError:
+	print("INvalid input")	#Goodpractice

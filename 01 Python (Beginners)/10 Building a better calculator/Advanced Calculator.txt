@@ -1,0 +1,19 @@
+We will use if statements to respond to user input
+Enter no.
+Enter operator
+Enter no.
+To do operations have to convert strings to number
+
+num1 = float(input("Enter first number:")) 	//Default input string convert to float
+op = input("Enter Operator: ")
+num2 =  float(input("Enter second number")) 	//Default input string convert to float
+
+if op       ==  "+":
+	print(num1 + num2)
+
+elif  op   ==  "-":
+	print(num1 - num2)
+elif  op   ==  "/"
+	print(num1 / num2 )
+elif  op   =="*"
+	print(num1*num2)

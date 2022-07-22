@@ -1,0 +1,12 @@
+print("  /|")
+print(" /_|")
+
+
+
+Console:  //where python outputs information
+	//print : prints to console
+
+ /|
+/_|
+
+  

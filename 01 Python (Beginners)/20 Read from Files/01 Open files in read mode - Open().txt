@@ -1,0 +1,8 @@
+What is reading?
+Reads all text from a file into a string employees.txt
+
+Just see what is in the file
+
+1) open ("employees.txt", "r")
+	//Can also specify path
+

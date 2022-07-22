@@ -1,0 +1,2 @@
+Cannot modify/ Cannot change/ But can add i.e can append
+open("employees.txt" , "a")

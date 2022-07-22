@@ -1,0 +1,42 @@
+try: piece of cod eto try
+
+catch: response to print when invalid input caught
+
+
+
+
+Example of invalid  input:
+
+number = int(input("Enter a number"))	//Convert whatever user entering to integer
+print(number)
+
+Output:
+Enter a number: asdref
+
+//What if user breaks the rules and enters text? Didnt enter integer
+
+Solution try except block
+try a piece of code
+Code in try block, If user enters something wrong, program can catch invalid input error
+_______________________________________________________________________________
+Ex1)
+try:
+	number = int(input("Enter a number:"))
+	print(number)
+
+except:
+	print("Invalid Input")
+
+Output: Invalid Input
+_____________________________________________________________________________________---
+
+Ex2)
+try:
+	value = 10/0
+	number = int(input("Enter a number:"))
+	print(number)
+
+except:
+	print("Invalid Input")
+
+Output: Invalid Input

@@ -1,0 +1,14 @@
+Select project folder -> New Python file
+
+Filename = app.py
+
+//How to print in Python? use print keyword
+print("Hello World")	//parenthesis and quotation marks
+
+Run
+app
+
+
+
+Output;
+Hello World is printed down below

@@ -1,0 +1,9 @@
+Program might throw error/exception
+
+This stops program from running
+
+
+We can handle the errors and do things
+
+try a piece of code
+Code in try block, If user enters something wrong, program can catch invalid input error

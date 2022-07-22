@@ -1,0 +1,4 @@
+How to concat strings in python? Use +
+
+phrase = "Giraffe Academy"
+print(phrase + "is cool")

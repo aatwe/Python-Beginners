@@ -1,0 +1,25 @@
+1) Individual Functions
+phrase = "Giraffe Academy"
+print(phrase.lower())
+print(phrase.islower())
+
+2) Functions in combinations: // How to use functions in combination
+print(phrase.lower().islower())
+
+3) Return length of string? len() function
+print(len(phrase))
+
+4) Find character from index
+phrase = "Giraffe Academy"
+print(phrase[0])
+
+5) Find index from character? .index() function
+phrase = "Giraffe Academy"
+print(phrase.index("a"))  -> returns 3
+print(phrase.index("Academy"))  -> returns 8
+print(phrase.index("z")) -> returns error
+
+6) Replace Function //replaces character/strings
+
+print(phrase.replace("Giraffe", "Elephant"))
+//prints Elephant Academy

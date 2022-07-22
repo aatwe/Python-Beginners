@@ -1,0 +1,43 @@
+employee_file = open("employees.txt" , "r")
+print(employee_file.readline()))	//reads 1st line 
+print(employee_file.readline()))	//reads 2nd line
+
+employee_file.close()		//closes file
+
+Output:
+
+line1
+line2
+__________________________________________________________________
+employee_file = open("employees.txt" , "r")
+print(employee_file.readlines()))	//reads all lines in file in list format(each line is 	element in list)
+
+Output: 
+	//Reads multiple lines in a file
+
+line1
+line2
+_____________________________________________________________________
+
+Ex
+employee_file = open("employees.txt" m "r")
+
+1) print(employee_file.readlines())		//put in array and print list view
+ 
+2) for employee in employee_file.readlines():	//put in list Prints each line in file using for loop
+	print(employee)
+
+
+3) print(employee_file.readlines()[1])		//put in array and print element
+
+employee_file.close()
+
+
+Output:
+1) ['Jim - Salesman\n', 'Dwight - Salesman\n', 'Pam- Receptionist\n']
+2) Jim - Salesman
+     Dwight - Salesman
+     Pam- Receptionist
+
+3) 
+Dwight Salesman

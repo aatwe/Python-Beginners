@@ -1,0 +1,50 @@
+Chef.py
+
+
+class Chef:
+
+    def make_chicken(self):
+	print("The chef makes a chicken")
+    def make_salad(self)
+	print("The chef makes a salad")
+    def make_special_dish(self)
+	print("The chef makes bbq ribs")
+_____________________________________________________________________________________
+App.py
+
+
+from Chef import Chef
+from ChineseChef import ChineseChef
+
+myChef = Chef()		//Create object
+myChef.make_special_dish()	//the chef makes bbq ribs
+
+
+myChineseChef = ChineseChef()
+myChineseChef.make_chicken()		//Chinese chef will be able to make chicken because it inherited that from Chef class
+myChineseChef.make_special_dish()		//Chinese chef will makee bbq ribs from Chef class, What if i want Chinese chef to make special dish Orange chicken
+					//Override!
+
+____________________________________________________________________________________________________________________________________________________________________________________________________
+Now what if we needed a different type of chef: Chinese chef?
+
+from Chef import Chef
+
+Chinese Chef.py
+class ChineseChef(Chef):	///Inherit all functions from Chef class
+	//GIven chines chef can do everything what normal chef can do + fried rice + different special dish
+	//instead of copying all those functions	//I dont want to copy the same functions from Chef class	//We use inheritence	//Inherit them from Chef class
+	
+	//Override make special dish for Chinese Chef
+	def make_special_dish(self):
+	   print("The Chinese chef makes orange chicken")	
+	
+	def make_fried_rice(self):
+		print("The chef can make fried rice")
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Output:
+The chef makes bbq ribs
+The chef makes chicken	//CHinese chef calls make_chicken
+The chinese chef makes orange chicken

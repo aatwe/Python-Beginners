@@ -1,0 +1,43 @@
+Q1) What is dictionary?
+	A special structure in python
+
+
+Q2) What does this structure store? Information in key value pairs
+	Refer to the key and get value associated with that key
+
+Q3) How to access information?
+I.e access  information by refering to its key
+  	gets value associated with key
+
+Q4) How to declare dictionary
+left side: Key
+Right side: value
+
+Condition: Key must be unique for every pair
+
+dictionary_name = {
+	"key1" : "value_1" ,
+	"key2": "vaue_2",
+	"key3": "value_3",
+} 
+
+1) print(dictionary_name["key1"])
+or
+2) dictionary_name.get("key1")
+
+
+Output: value_1
+
+Q4) What input argument data type for key and value?
+Number/Strings
+dictionary_name = {
+	1: "January",
+	2: "February"
+}
+
+Q5) What if we put invalid key?
+print(dictionary_name["key4"])
+//no key found
+
+Q6) How to pass default value in case no key found?
+print(dictionary_name["key4", "Default value to be printed when key not found"])

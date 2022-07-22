@@ -1,0 +1,13 @@
+Find specific error name by storing in variable
+try:
+	answer = 10/0
+	number = int(input("Enter a number"))
+	print(number)
+
+except ZeroDivisionError as err:
+	print(err)
+except ValueError:
+	print("Invalid Input")
+
+Output:
+division by zero  //this is the specific error name

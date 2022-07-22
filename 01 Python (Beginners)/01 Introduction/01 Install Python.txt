@@ -1,0 +1,10 @@
+Python.org/downloads 
+
+Download Python 3.6.3
+
+
+Python2  (legacy not supported)
+Python3  (actively maintained) 
+
+
+

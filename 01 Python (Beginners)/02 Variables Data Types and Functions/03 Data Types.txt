@@ -1,0 +1,13 @@
+What values can a variable store?
+
+In python no need to mention data type unlike C for a variable
+What types of data we can store?
+
+1) String  (What is string? Sequence of character + no. + spaces)
+2) Number (Decimal Number + Whole Number)
+3) Boolean Value (T/F)
+
+
+string_variable = "Tom"
+number_variable =  50.5678213
+is_Male = true;

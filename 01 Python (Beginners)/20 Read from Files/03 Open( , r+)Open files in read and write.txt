@@ -1,0 +1,5 @@
+employee_file = open("employees.txt", "r+")	
+
+All powers of reading and writing
+
+

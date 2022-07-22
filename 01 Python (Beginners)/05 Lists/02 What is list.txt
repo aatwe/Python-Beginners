@@ -1,0 +1,50 @@
+friends = ["Kevin" , "Karen" , "Jim"]
+
+How many elements can you store in list ?536870912 = 2^32/8 (32 bit)
+
+1) How to store in a list?
+	Store multiple values(any type) in a variable
+	A structure in python to store lists of information
+	Note recommended: List = related values but can contain different data types
+
+List_name = ["ABC" , 2 , False]
+
+friends = ["Kevin" , "Karen" , "Jim"]
+
+3) How to print entire list? print statement
+friends = ["Kevin" , "Karen" , "Jim"]
+print(friends)
+
+2) How to access list elements?
+note : index 0  = first element from start
+          index -1 = last element
+
+a) Based on index from front
+friends = ["Kevin" , "Karen" , "Jim"]
+print(friends[0])
+Output: Kevin
+
+b) Based on index from back
+friends = ["Kevin" , "Karen" , "Jim"]
+print(friends[-1])
+Output: Jim
+
+
+3) How to print all elements after and including an index x? print(list_name(x:))
+friends = ["Kevin" , "Karen" , "Jim"]
+print(friends(1:))
+Output: ['Karen' ,  'Jim']
+
+
+4) How to print elements in a range x to y(not including y)? print(list_name(x:y))
+Grab from -- upto(not including)
+friends = ["Kevin", "Karen" , "Jim",  "Oscar" , "Toby"]
+print(friends(1:3))
+Output: ['Karen', 'Jim']
+
+
+5) How to modify a value of an element in list?
+
+friends = ["Kevin", "Karen" , "Jim",  "Oscar" , "Toby"]
+friends[1] = "Mike"
+print(friends[1])

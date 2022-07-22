@@ -1,0 +1,6 @@
+//Will overwrite the entire file, not append
+
+employee_file = open("employees.txt","a")
+employe_file.write("Toby- Human Resources ")
+employee_file.close()
+

@@ -1,0 +1,40 @@
+def function_name():
+
+Q1) Why use function?
+	piece of code, supposed to be executed only when we want
+
+Q2) How to define function? def keyword
+	def function_name():
+		//Code inside function
+		print("Hello User")
+
+Q3) How to give information to function? Give parameters
+	def say_hi(name):
+	   print("Hello" +name)
+
+	say_hi(Mike)
+	say_hi(Steve)
+
+Q4) How many parameters can you pass? As many
+
+	def say_hi(name, age):
+	   print("Hello " +name + "you are" +age)
+	say_hi("Mike" , "35")
+
+Q5) What can you pass? No. and string just use the parameter after converting
+because default data type is string(if passing no. convert to string)
+def day_(name,age):
+     print("Hello" +name+ :, you are" + str(age))
+
+Q4) 
+	def sayhi() :
+	      print("Hello User")
+
+	print("Top"
+	sayhi()
+	print("Bottom")
+
+	Output:
+	Top
+	Hello User
+	Bottom

@@ -1,0 +1,14 @@
+
+Array vs list
+Array contains similar elements i.e same data type
+
+List can contain elements with different data types
+
+can print list without looping explicitly
+for array you need loop to print
+
+lists consume larger memory
+
+
+easy modification of data in lists
+modification is element wise: array

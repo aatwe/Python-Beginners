@@ -1,0 +1,5 @@
+-Python Project
+
+-External Libraries //Folder
+   -> Lib
+      -> external modules	//stored in lib folder   //

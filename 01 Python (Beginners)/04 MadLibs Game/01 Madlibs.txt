@@ -1,0 +1,25 @@
+entering random words in blank spaces and create a story with them
+
+
+
+
+//Create 3 variables to store user input
+
+color = input("Enter a color")
+plural_noun = input("Enter a Plural Noun")
+celebrity = input("Enter a Celebrity name")
+
+
+print("Roses are" + color)
+pritn(plural noun +" are blue")
+print("I love "+ celebrity)
+
+_______________________________________________________-
+COnsole:
+Enter a color: Magenta
+Enter a Plural Noun : Microwaves
+Enter a celebrity : Tom Hanks
+
+Roses are Magenta
+Microwaves are blue
+I love Tom Hanks

@@ -1,0 +1,3 @@
+pip uninstall python-docx
+
+//pip will uninstall this

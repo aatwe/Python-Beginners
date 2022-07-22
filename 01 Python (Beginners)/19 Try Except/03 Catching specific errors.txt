@@ -1,0 +1,37 @@
+can catch specific errors also
+
+value = 10/0
+try: 
+	number = int(input("Enter a number")	
+	print(number)
+except:
+	print("Invalid Input")
+
+Output: Invalid Input
+___________________________________________________________________________________________
+try: 
+	value = 10/0
+	number = int(input("Eneter a number"	
+	print(number)
+except:
+	print("Invalid Input")
+
+Output: Zero Invalid Input
+____________________________________________________________________________________________
+Catch specific type of error
+try:
+	value = 10/0
+	number = int(input("Enter a number"))
+	print(number)
+
+except ZeroDivisionError:		//this will look for ZeroDivisionError only and will catch that
+	print("Divided by zero")
+except ValueError:			//this will look for ValueError only and will catch that
+	print("Invalid Input")
+
+Output: 
+Enter number: 10/0
+Divided By zero
+
+Enter number: abc
+Invalid Input

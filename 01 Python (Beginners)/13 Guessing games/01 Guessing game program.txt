@@ -1,0 +1,30 @@
+secret_word = "Giraffe"					//What is the secret word
+guess = " "						//Where will we store user input
+guess_count = 0;						//How to check user current attempts
+guess_limit = 3						//How to check user attempt limit
+out_of_guesses = False					//How to check if user is out of limit
+
+while guess != secret_word and not(out_of_guesses):		//when to take input? guess ! = secret_word and user not out of limits
+	if guess_count < guess_limit				//Take input when guess count is < guess limit
+		guess = input("Enter guess: ")			//TAKE INPUT
+		guess_count += 1					//increase count by 1
+					
+	else:										
+		out_of_guesses = True				//Put user out of limits
+			
+				//While loop exits
+					
+if out_guesses:						//If user is out of guesses
+	print("You are out of guesses, You Lose!")		//print you lose because you are out of guesses	
+else:							
+	print("You win!")					//if user is not out of guesses and loop has exited then they must have guessed correctly				
+
+
+_________________________________________________________________________________________________________________________________________________________________________________
+Console
+Enter guess: text
+
+Enter guess: sadg
+
+Enter guess: giragge
+You Win!

@@ -1,0 +1,3 @@
+allows external files
+
+What are external files? files managed by your os

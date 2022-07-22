@@ -1,0 +1,9 @@
+//Create a new file employees1.txt
+employee_file = open("employees1.txt", "w")
+employee_file.write("\nKelly Cusomer Service")
+employee_file.close()
+
+//Create a html file
+employee_file = open("index.html", "w")
+employee_file.write("<p>This is HTML </p>")
+employee_file.close()
